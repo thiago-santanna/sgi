@@ -1,4 +1,4 @@
-package com.tsswebapps.sgi.domain.model.pessoa.documentos;
+package com.tsswebapps.sgi.domain.enums;
 
 public enum TiposDocumentos {
 	CPF,
@@ -8,5 +8,4 @@ public enum TiposDocumentos {
 	TITULO,
 	CTPS,
 	CNH
-
 }

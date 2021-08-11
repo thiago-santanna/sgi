@@ -1,10 +1,10 @@
+
 package com.tsswebapps.sgi.domain.model.pessoa.documentos;
 
-import lombok.Data;
+import com.tsswebapps.sgi.domain.enums.TiposDocumentos;
 
-@Data
 public class Documentos {
 	private Long id;
-	private String Descricao;
+	private String descricao;
 	private TiposDocumentos tipoDocumento;
 }
