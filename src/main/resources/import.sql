@@ -1,2 +1,11 @@
 insert into pais (descricao) values ('Brasil');
+insert into pais (descricao) values ('Estados unidos');
 insert into estado (descricao, pais_id) values ('Pernambuco',1);
+insert into estado (descricao, pais_id) values ('Rio Grande do Norte',1);
+insert into estado (descricao, pais_id) values ('São Paulo',1);
+insert into estado (descricao, pais_id) values ('Rio de Janeiro',1);
+insert into estado (descricao, pais_id) values ('Nova York',2);
+insert into cidade (codigo_cidade, descricao, estado_id) values ('102057', 'Recife', 1);
+insert into cidade (codigo_cidade, descricao, estado_id) values ('102057', 'São Paulo', 3);
+insert into cidade (codigo_cidade, descricao, estado_id) values ('102057', 'Niteroi', 4);
+insert into cidade (codigo_cidade, descricao, estado_id) values ('102057', 'Nova York', 5);
